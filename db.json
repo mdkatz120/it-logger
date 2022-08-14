@@ -1,43 +1,54 @@
 {
-    "logs":[
-        {
-        "id": 1,
-        "message": "Changed hard drive on workstation 005",
-        "attention": false,
-        "date": "03-02-2019",
-        "tech": "Sam Smith"
-      },
-      {
-        "id": 2,
-        "message": "Workstation 007 not posting",
-        "attention": true,
-        "date": "03-02-2019",
-        "tech": "John Doe"
-      },
-      {
-        "id": 3,
-        "message": "Changed memory on workstation 050",
-        "attention": false,
-        "date": "03-02-2019",
-        "tech": "Sara Wilson"
-      }
-    ],
-    "techs":[
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe"
-          },
-          {
-            "id": 2,
-            "firstName": "Sam",
-            "lastName": "Smith"
-          },
-          {
-            "id": 3,
-            "firstName": "Sara",
-            "lastName": "Wilson"
-          }
-
-    ]
+  "logs": [
+    {
+      "message": "Change network card on 007",
+      "attention": false,
+      "tech": "Fri",
+      "date": "2022-07-25T11:13:46.444Z",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "message": "network card is broken on 007",
+      "attention": true,
+      "tech": "Jon",
+      "date": "2022-08-03T11:05:02.086Z"
+    },
+    {
+      "id": 4,
+      "message": "throw out system No. 024",
+      "attention": true,
+      "tech": "Sam",
+      "date": "2022-08-03T11:02:12.778Z"
+    },
+    {
+      "message": "Replace Hard drive on 010",
+      "attention": false,
+      "tech": "Greg Horovitch",
+      "date": "2022-08-14T13:59:40.593Z",
+      "id": 5
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Greg",
+      "lastName": "Horovitch",
+      "id": 5
+    }
+  ]
 }
